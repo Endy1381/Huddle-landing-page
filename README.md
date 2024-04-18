@@ -9,4 +9,4 @@ link: https://endy1381.github.io/Huddle-landing-page/
 
 another project from frontend mentor. hope you enjoy😊
 
-### i sont know why bit the footer seems to be missing
+### i don;t know why bit the footer seems to be missing
