@@ -64,6 +64,21 @@ button {
 }
 
 
+
+
+
+footer {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 3%;
+}
+
+i {
+    font-size: 35px;
+    margin-right: 1%;
+}
+
 @media only screen and (max-width: 768px){
     * {
         margin: 0;
@@ -72,8 +87,9 @@ button {
         background-image: url('../images/bg-mobile.svg');
         background-attachment: fixed;
 
-
     }
+
+
     .sub {
         padding: 5%;
         flex-direction: column;
@@ -83,5 +99,8 @@ button {
     }
     button {
         width: auto;
+    }
+    footer {
+        justify-content: center;
     }
 }
