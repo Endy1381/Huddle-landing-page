@@ -43,13 +43,45 @@ img {
 }
 h1 {
     font-size: 230%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 p {
     margin-bottom: 7%;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+button {
+    display: inline-block;
+    border-style: none;
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    padding: 1%;
+    font-size: 20px;
+    width: 140px;
+    padding: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    border-radius: 32px;
+}
+
+
+@media only screen and (max-width: 768px){
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: hsl(257, 40%, 49%);
+        background-image: url('../images/bg-mobile.svg');
+        background-attachment: fixed;
+
+
+    }
+    .sub {
+        padding: 5%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    button {
+        width: auto;
+    }
 }
